@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Rubik" , serif;
+
+}
+
+body{
+    background-color:  lightgray;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0.05rem;
+}
+
+.navigation ul {
+display: flex;
+list-style-type: none ;
+gap: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:darkred;
+}
+
+.navigation a:hover {
+    color:rgb(203, 14, 14);
+}
+
+
+hr {
+    opacity: 50%;
+}
+
+.hero {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+
+}
+
+
+.hero {
+    width: 200%;
+    min-height: 100vh;
+    display: flex;
+    background: url(image/افضل-10-من-مدن-البحرين-الشهيرة.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(51, 48, 48);
+
+}
+   
+.malomatama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.textTitle {
+color :darkred;
+font-size: 2rem;
+}
+
+.textPar1 {
+    text-align: justify;
+    color:black;
+
+}
+.textPar2 {
+    text-align: justify;
+    color:black;
+
+}
+
+.textPar3 {
+    text-align: justify;
+    color:black;
+
+}
+
+.malomatamaphoto {
+    border-radius: 35px;
+    box-shadow: 0 0 5px rgb(125, 8, 8);
+
+}
+
+.lands {
+    background-color: darkslategrey;
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+
+.landsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+
+.landstitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 3rem;
+    color: white;
+}
+
+.lands li {
+    border-radius: 16px;
+    background-color: darkred;
+    backdrop-filter: blur (4px);
+    padding: 4rem 4rem;
+    gap: 5px;
+    margin: 5px;
+
+
+}
+
+.lands ul { 
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    border-spacing: 15px 50px;
+
+    
+
+}
+
+.lands li img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+    border-radius: 15% 5%;
+    background-color: rgb(89, 7, 7);
+
+   
+}
+
+.lands li :hover {
+    transform: scale(1.5);
+}
+
+
+.textland1 {
+color: white;
+align-items: center;
+transition: transform 0.2s;
+
+}
+
+
+.textland2 {
+    color: white;
+    align-items: center;
+    transition: transform 0.2s;
+    
+    }
+    .textland3 {
+        color: white;
+        align-items: center;
+        transition: transform 0.2s;
+        
+        }
+
+
+        .textland4 {
+            color: white;
+            align-items: center;
+            transition: transform 0.2s;
+
+            
+            }
+
+    .p-land {
+        color: white;
+        align-items: center;
+        transition: transform 0.2s; 
+    }
+
+
+    footer {
+        color: rgb(0, 0, 0);
+        padding: 2rem;
+        text-align: center;
+    }
+
+    @media (max-width: 1023px) {
+
+header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.title , .subtitle {
+    font-size: 2rem;
+
+}
+
+.malomatama {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap:2rem;
+}
+
+.textContainer {
+    align-items: center;
+    margin: 0rem 5rem;
+    gap: 1rem;
+}
+
+.textTitle {
+    font-size: 2rem;
+
+}
+
+.light {
+    width: 60px;
+
+}
+
+.malomatamaphoto {
+    width: 400px;
+}
+
+.lands {
+
+    padding: 0;
+
+}
+
+.landsContainer {
+    padding: 5rem 0rem;
+    gap: 3rem;
+}
+ .landstitle {
+    margin-left: 1rem;
+ }
+ 
+ .lands ul {
+    flex-direction: column;
+    gap: 1rem;
+
+ }
+
+ 
+
+    }
