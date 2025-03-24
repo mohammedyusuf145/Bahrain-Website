@@ -234,6 +234,66 @@ transition: transform 0.2s;
         text-align: center;
     }
 
+
+
+    .history {
+        background: #c2c2c2;
+        padding: 40px;
+        max-width: 800px;
+        margin: 50px auto;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(101, 14, 14, 0.1);
+        text-align: center;
+
+    }
+    
+
+    .historytitle {
+        color: brown;
+
+    }
+
+    .historytext {
+         
+        padding: auto;
+    }
+
+
+    p {
+
+        color: rgb(26, 25, 25);
+        line-height: 1.8;
+    }
+
+ 
+    .date {
+        font-size: 17.5px;
+        color: rgb(10, 8, 92);
+    }
+
+    .titlehis {
+
+        color: rgb(109, 22, 22);
+        font-size: 40px;
+        padding-bottom: 2.1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media (max-width: 1023px) {
 
 header {
@@ -302,3 +362,5 @@ header {
  
 
     }
+
+
